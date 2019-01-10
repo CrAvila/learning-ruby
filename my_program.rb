@@ -1,4 +1,4 @@
-class Sample
+x = 8class Sample
     def hello
         puts "Hello,World!"
     end
