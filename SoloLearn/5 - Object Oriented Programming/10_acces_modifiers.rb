@@ -91,5 +91,8 @@ This code generates an error, because we tried to call the private method id on 
 and the other object.
 
 To be able to do that without the mthod public, Ruby has the protected access control.
-    If we chang the method from provate to protected, the code will work
+    If we chang the method from provate to protected, the code will work.
+
+So, protected methods are not accessible from outside code, just like provate methods,
+but can be called for an object of the same class or subclasses.
 =end
